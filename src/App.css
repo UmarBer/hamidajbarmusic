@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 700;
+}
+
+body {
+  background: #f2f2f2;
+}
+.App {
+  min-height: 2000px;
+}
+.h2-gallery,
+.h2-videos,
+.h2-past-events {
+  display: flex;
+  justify-content: center;
+  padding: 48px 0px;
+}
+
+@media (max-width: 480px) {
+  .h2-gallery,
+  .h2-videos {
+    padding: 48px 0px;
+  }
+}

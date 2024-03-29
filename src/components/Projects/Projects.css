@@ -1,0 +1,30 @@
+@media (width > 1024px) {
+}
+.projects-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 30px;
+  background: white;
+  margin-top: 2em;
+  margin-right: 2em;
+  padding-bottom: 2em;
+}
+
+.projects-div p {
+  font-weight: 400;
+  text-align: justify;
+  margin-right: 2rem;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+.projects-div h2 {
+  margin-top: 2em;
+  margin-left: 1.3em;
+}
+
+@media (max-width: 480px) {
+  .projects-div {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,68 @@
+.past-events {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2em;
+  padding-left: 2em;
+  padding-right: 2em;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+}
+td {
+  padding: 1em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.table-content {
+  justify-items: center;
+}
+
+.past-events-grid {
+  align-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: auto;
+  grid-auto-rows: auto;
+  grid-auto-flow: dense;
+  gap: 6px;
+  margin: 0 2em;
+  padding-bottom: 2em;
+}
+
+.year2023,
+.year2022,
+.year2021,
+.year2019,
+.year2018,
+.year2015 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h3 {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.year-p {
+  font-weight: 300;
+  padding-top: 0.5em;
+}
+
+@media (max-width: 480px) {
+  .past-events {
+    display: none;
+  }
+
+  .past-events-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}

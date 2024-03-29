@@ -1,0 +1,106 @@
+.press-div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.press-statement {
+  padding: 2em;
+}
+
+.review {
+  padding: 2em;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+.h2-press {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.img-div {
+  width: 100%;
+  object-fit: cover;
+  padding-left: 2em;
+  padding-top: 2em;
+}
+
+.p-statement {
+  font-weight: 300;
+  padding-top: 1em;
+  padding-bottom: 2em;
+  text-align: justify;
+}
+
+.wp-embedded-content {
+  padding-bottom: 1em;
+}
+
+.btn {
+  background-color: #ffffff;
+  border: 0;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  color: #111827;
+  font-family: 'Inter var', ui-sans-serif, system-ui, -apple-system, system-ui,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  padding: 0.75rem 1rem;
+  text-align: center;
+  text-decoration: none #d1d5db solid;
+  text-decoration-thickness: auto;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:hover {
+  background-color: #db9999;
+}
+
+.btn:focus {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.btn:focus-visible {
+  box-shadow: none;
+}
+
+@media (max-width: 480px) {
+  .press-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-div img {
+    width: 370px;
+  }
+  .wp-embedded-content {
+    width: 366px;
+  }
+}
+
+@media (width > 1024px) {
+  .wp-embedded-content {
+    width: 500px;
+  }
+}
+
+@media (max-width: 390px) {
+  .img-div img {
+    width: 330px;
+  }
+
+  .wp-embedded-content {
+    width: 330px;
+  }
+}
