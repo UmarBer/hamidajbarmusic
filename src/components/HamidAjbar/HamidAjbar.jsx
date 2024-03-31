@@ -4,7 +4,7 @@ const HamidAjbar = () => {
   return (
     <div className="hamid-info" id="hamid-ajbar">
       {/* <h2 className="hamid-title">HAMID AJBAR - CANTANTE - VIOLINISTA</h2> */}
-      <section className="about-hamid">
+      <div className="about-hamid">
         <div className="hamid-img">
           <img
             src="https://hamidajbarmusic.com/wp-content/uploads/2019/07/HLondon-1.jpg"
@@ -45,7 +45,7 @@ const HamidAjbar = () => {
             otros proyectos como cantante solista.
           </p>
         </div>
-      </section>
+      </div>
     </div>
   );
 };

@@ -27,4 +27,7 @@
   .projects-div {
     flex-direction: column;
   }
+  .yinnan-h2 {
+    margin-right: 32px;
+  }
 }

@@ -82,10 +82,13 @@ h2 {
   }
 
   .img-div img {
-    width: 370px;
+    width: auto;
+    padding-right: 2em;
   }
   .wp-embedded-content {
-    width: 366px;
+    width: auto;
+    align-self: center;
+    padding-left: 1em;
   }
 }
 

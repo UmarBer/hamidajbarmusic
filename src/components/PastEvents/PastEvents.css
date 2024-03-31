@@ -8,21 +8,6 @@
   overflow-x: scroll;
 }
 
-table {
-  table-layout: fixed;
-  width: 100%;
-  border-collapse: collapse;
-}
-td {
-  padding: 1em;
-  font-weight: 300;
-  text-align: center;
-}
-
-.table-content {
-  justify-items: center;
-}
-
 .past-events-grid {
   align-content: center;
   display: grid;
@@ -43,7 +28,6 @@ td {
 .year2015 {
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 h3 {

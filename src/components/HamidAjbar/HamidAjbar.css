@@ -12,9 +12,11 @@ img {
 }
 
 .about-hamid {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  justify-items: center;
+  justify-items: center; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-left: 2em;
   margin-right: 32px;
   background: white;
@@ -22,22 +24,21 @@ img {
   padding-bottom: 2em;
 }
 
-.hamid-img {
-  width: 100%;
+.hamid-img img {
+  width: 540px;
   height: 584px;
   object-fit: cover;
   margin-top: 25px;
-}
-
-.hamid-txt {
-  max-width: 50%;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .hamid-text-p {
   font-weight: 400;
   text-align: justify;
-  hyphens: auto;
-  margin: 32px 32px 0 0;
+  margin-right: 2rem;
+  margin-left: 2em;
+  margin-top: 2em;
 }
 
 @media (width > 1024px) {
@@ -53,22 +54,22 @@ img {
     padding-bottom: 3em;
   }
 
-  .hamid-img {
+  /* .hamid-img {
     width: 312px;
     margin-bottom: 0px;
     margin-right: 1em;
-  }
+  } */
 
   .hamid-txt {
     width: 100%;
   }
 
-  .hamid-text-p {
+  /* .hamid-text-p {
     width: 300px;
     object-fit: cover;
     text-align: justify;
     hyphens: auto;
-  }
+  } */
 }
 
 @media (max-width: 390px) {
